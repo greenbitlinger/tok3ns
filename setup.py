@@ -7,8 +7,7 @@ setup(
     name="tok3ns",  # Name of your package
     version="0.1.0",  # Initial version
     description="A Python package with a single script called tok3ns",
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="James R",
     py_modules=["tok3ns"],  # Single script, no packages
     install_requires=[
         # List any dependencies here, e.g., "requests", "numpy"
