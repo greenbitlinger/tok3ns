@@ -12,6 +12,7 @@ INSTALLATION:
 ```console
 pip install git+https://github.com/greenbitlinger/tok3ns.git
 ```
+# METHOD C: INSTALL FROM PYPI
 
 call the function `tokenise(string)`
 
