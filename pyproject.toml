@@ -1,0 +1,30 @@
+# pyproject.toml
+
+[build-system]
+# Require setuptools and wheel to build the package
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tok3ns"                  # Name of your package
+version = "0.1.0"                # Initial version
+description = "A Python package with a single script called tok3ns"
+authors = [
+    { name = "James R" }
+]
+dependencies = [
+    "requests"                    # List dependencies needed by your script
+]
+readme = "README.md"             # Optional, include a project readme
+keywords = ["cli", "tokens", "example"]
+license = { text = "MIT" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+requires-python = ">=3.6"
+
+[project.scripts]
+# Defines the CLI entry point for the tok3ns script
+tok3ns = "tok3ns:main"
